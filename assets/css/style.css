@@ -2,6 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@300&family=Roboto:wght@400;700&display=swap');
 
+
+
+* {
+    outline: 1px solid red;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -31,10 +37,102 @@ header .fa-bars {
     }
 
     nav {
-       display: none; 
+        display: none;
     }
 }
 
+.introduction {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 113px;
+    padding-right: 112px;
+    flex-wrap: wrap;
+
+}
+
+.introduction h1 {
+    font-size: 72px;
+    font-weight: 700;
+    flex-wrap: wrap;
+}
+
+.introduction .left-side {
+    padding-top: 117px;
+    min-width: 700px;
+    display: flex;
+    flex-direction: column;
+}
 
 
+.introduction .left-side h1 span {
+    color: #FF8A56;
+}
+
+.introduction .left-side p {
+    color: #666;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    min-width: 700px;
+}
+
+.introduction .left-side button {
+    width: 151px;
+    height: 58px;
+    background-color: #222;
+    color: #fff;
+}
+
+.introduction .left-side a {
+    padding-left: 12px;
+}
+
+.button-groups {
+    display: flex;
+    align-items: center;
+}
+
+.button-groups a {
+    color: #000;
+}
+
+
+@media(max-width:1441px) and (min-width:828px) {
+    .introduction .left-side {
+        flex-basis: 100%;
+        align-items: center;
+    }
+
+    .introduction .right-side {
+        margin: 0 auto;
+    }
+
+}
+
+@media(max-width:768px) {
+
+    .introduction {
+        padding-left: 30px;
+        }
+
+    .introduction .left-side {
+        min-width: 500px;
+    }
+
+    .introduction .left-side h1 {
+        font-size: 48px;
+        text-align: center;
+    }
+
+    .introduction .left-side p {
+        text-align: center;
+    }
+
+    .button-groups {
+        margin: 20px auto;
+    }
+
+    .right-side {
+        margin: 0 auto;
+    }
+}
 
