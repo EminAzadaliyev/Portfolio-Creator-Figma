@@ -4,13 +4,13 @@
 
 
 
-* {
-    outline: 1px solid red;
-}
+
 
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+/* HEADER KODLARI START */
 
 header {
     display: flex;
@@ -41,6 +41,9 @@ header .fa-bars {
     }
 }
 
+/* HEADER KODLARI END */
+
+/* INTRODUCTION KODLARI START */
 .introduction {
     display: flex;
     justify-content: space-between;
@@ -135,4 +138,43 @@ header .fa-bars {
         margin: 0 auto;
     }
 }
+
+/* INTRODUCTION KODLARI END */
+
+
+
+/* TRUSTED BY KODLARI START */
+
+.trusted-by-section h5 {
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 77px;
+    font-weight: 400;
+}
+
+.partner-section {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 77px;
+    padding-left: 289px;
+    padding-right: 289px;
+}
+
+@media(max-width:768px) {
+    .partner-company:nth-child(even) {
+        display: none;
+    }
+}
+
+@media(max-width:576px) {
+    .partner-company:not(:first-child) {
+        display: none;
+    }
+}
+
+
+
+
+
+/* TRUSTED BY KODLARI END */
 
