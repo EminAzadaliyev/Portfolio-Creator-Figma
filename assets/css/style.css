@@ -314,7 +314,7 @@ ul {
     font-weight: 400;
     color: #000;
     padding-left: 32px;
-    
+
 }
 
 
@@ -323,27 +323,355 @@ ul {
 /* BLOGS SECTION START */
 
 .blogs-section {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -190px;
     background-color: #000;
-    margin: -10%;
-    width: 1670px;
-    height: 1200px;
+    margin: -12%;
+    width: 112%;
+    height: 1300px;
 }
 
-.blogs-section button {
-    color:#fff;
-    cursor: pointer;
+.blogs-section .left-side h3 {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: #FFA84B;
+    padding-bottom: 20px;
+    padding-top: 250px;
+
 }
 
+.blogs-section .left-side h1 {
+    font-size: 54px;
+    font-weight: 700;
+    padding-bottom: 32px;
+    color: #fff;
+}
 
+.blogs-section a {
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+    align-items: center;
+    padding-right: 7px;
+    color: #fff;
+}
 
+.blogs-section .right-side {
+    padding-top: 270px;
+}
 
+.blogs-section .right-side h6 {
+    font-size: 15px;
+    font-weight: 700;
+    padding-bottom: 26px;
+    padding-top: 30px;
+    color: #FFFFFFB2;
+}
 
+.blogs-section .right-side h2 {
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 39px;
+    color: #fff;
+}
 
-
-
-
-
-
+.blogs-section a img {
+    color: #fff;
+}
 
 
 /* BLOGS SECTION END */
+
+/* PRODUCT DESIGNER START */
+
+.product-designer-section {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-designer-section .left-side h3 {
+    font-weight: 700;
+    font-size: 22px;
+    color: #FF5E69;
+    letter-spacing: 4px;
+}
+
+.product-designer-section .left-side h1 {
+    font-weight: 700;
+    font-size: 54px;
+    padding-top: 15px;
+}
+
+.product-designer-section .right-side h3 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+/* PRODUCT DESIGNER END */
+
+/* IMAGES SECTION START */
+
+.images-section {
+    display: flex;
+    padding-left: 150px;
+    padding-top: 90px;
+}
+
+.images-section .image2 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.images-section .image3 {
+    padding-bottom: 14px;
+}
+
+/* IMAGES SECTION END */
+
+/* EDUCATION SECTION START */
+
+.education-section {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+
+.education-section h1 {
+    font-size: 36px;
+    font-weight: 400;
+    padding-bottom: 83px;
+}
+
+.education-section h3 {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 9px;
+    padding-top: 32px;
+}
+
+.education-section h5 {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 39px;
+    padding-top: 32px;
+    color: #00000099;
+}
+
+.education-section .left-side .edu-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #00000099;
+}
+
+
+.education-section .left-side .edu-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.education-section .right-side .work-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.education-section .right-side .work-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #00000099;
+}
+
+
+/* EDUCATION SECTION END */
+
+/* TESTIMONIALS SECTION START */
+
+.testimonials-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.testimonials-section .left-side {
+    padding-top: 100px;
+    padding-left: 4px;
+}
+
+.testimonials-section .left-side h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #4353FF;
+    letter-spacing: 4px;
+    padding-bottom: 20px;
+}
+
+.testimonials-section .left-side h1 {
+    font-size: 54px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-bottom: 85px;
+}
+
+.testimonials-section .right-side {
+    padding-top: 320px;
+}
+
+.testimonials-section .right-side h2 {
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 33px;
+    padding-bottom: 139px;
+}
+
+.testimonials-section .right-side h4 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+
+.testimonials-section .right-side h5 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/* TESTIMONIALS SECTION END */
+
+/* FAQ SECTION START */
+
+.faq-section {
+    padding-top: 120px;
+    padding-left: 110px;
+    padding-right: 110px;
+    background-color: #000;
+    margin-top: 10%;
+}
+
+.faq-section h4 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #FF8A56;
+    letter-spacing: 4px;
+}
+
+.faq-section h2 {
+    text-align: center;
+    padding-bottom: 150px;
+    font-size: 54px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.faq-section h3 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.faq-section .questions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-section .questions .faq1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* FAQ SECTION END */
+
+
+/* FOOTER SECTION START */
+
+footer {
+    background-color: #000;
+}
+
+.footer-section .footer {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 106px;
+    padding-top: 102px;
+    padding-bottom: 100px;
+}
+
+.footer-section h1 {
+    font-size: 54px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.footer-section h5 {
+    font-size: 54px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #3C46FF;
+}
+
+.footer-section .header-of-footer {
+    padding-left: 106px;
+    padding-top: 170px;
+}
+
+.footer-section .footer .left-side h2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+    padding-top: 15px;
+}
+
+.footer-section .footer .left-side .letter {
+    display: flex;
+}
+
+.footer-section .footer .left-side .letter img {
+    padding-top: 11px;
+    padding-right: 7px;
+}
+
+.footer-section .right-side .ase,
+.cbp,
+.dit {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    padding-right: 112px;
+
+}
+
+.footer-section h4 {
+    font-size: 18px;
+    font-weight: 700;
+    padding-right: 70px;
+    color: #fff;
+}
+
+.footer-section h6 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 140px;
+    padding-bottom: 21px;
+    padding-left: 100px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8A95AD;
+}
+
+
+
+
+/* FOOTER SECTION END */
